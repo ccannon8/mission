@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  /* Centered bordered content box */
+  .content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px 120px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Title section */
+  .title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  /* This targets the second title line properly and ensures it turns blue */
+.title h2 {
+    color: #006EB6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Paragraphs */
+  main p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Emphasis */
+  main em {
+    font-style: italic;
+  }
+  
+  /* Ordered list */
+  .does-list {
+    padding-left: 40px;
+  }
+  
+  .does-list li {
+    margin-bottom: 18px;
+  }
+  
+  /* Footer logo */
+  footer .logo {
+    display: block;
+    margin: 40px auto 0;
+    width: 150px;
+    height: auto;
+  }
+  
